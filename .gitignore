@@ -1,4 +1,5 @@
 *.sublime-project
 *.sublime-workspace
+*.log
 node_modules/*
 Angular2in5/node_modules/*
