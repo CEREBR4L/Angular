@@ -24,6 +24,7 @@ scotchApp.controller('mainController', function($scope){
 scotchApp.controller('aboutController', function($scope){
 	$scope.message = "Look, an about page!";
 });
+
 scotchApp.controller('contactController', function($scope){
 	$scope.message = "Look, a contact page!";
 });
