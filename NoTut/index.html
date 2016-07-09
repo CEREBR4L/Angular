@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="WebApp">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="home">
+	<nav class="nav">
+		<a href="#" class="nav-item">Home</a>
+		<a href="#port" class="nav-item">Portfolio</a>
+	</nav>
+
+	<div ng-controller="HomeCont" class="controller">
+		<div ng-view class="view"></div>
+	</div>
+</div>
+<!--PROVIDER-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
+<!--LOCAL-->
+<script src="js/app.js"></script>
+<script src="js/controllers/HomeCont.js"></script>
+<script src="js/controllers/PortCont.js"></script>
+</body>
+</html>
